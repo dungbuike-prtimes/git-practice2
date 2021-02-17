@@ -11,8 +11,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    background: url("hinh-nen-chuc-mung-nam-moi-2021-15-min.jpg") repeat-y;
+    background-size: contain;
 }
 
 .header {
     font-size: 40px;
+}
+
+.version {
+    position: absolute;
+    top: 20px;
 }
